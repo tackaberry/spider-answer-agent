@@ -1,4 +1,4 @@
-# Spider Chatbot
+# Spider Answer Agent
 
 This project will crawl and scrape content from websites and pages you specify to create a corpus of text that will be used as context for a question answering agent. This uses the embeddings API from OpenAI to calculate embeddings for the content. The embeddings and context is saved in a CSV file.  The CSV file is used to create context to send along with the question to retrieve an answer from OpenAI. 
 
